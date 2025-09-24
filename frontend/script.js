@@ -31,4 +31,4 @@ async function fetchQuoteAndSave() {
   localStorage.setItem(AUTHOR_KEY, json.author);
 }
 
-setInterval(fetchQuoteAndSave, 60 * 1000);
+setInterval(fetchQuoteAndSave, 300 * 1000);
