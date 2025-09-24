@@ -1,0 +1,85 @@
+/* General Styles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto','Lato', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background: url('./assets/images/bookshelf.jpg') no-repeat center center/ cover;
+}
+
+.container {
+  inline-size: 34.375rem;
+  block-size: 28.125rem;
+}
+
+.header {
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  letter-spacing: 0.15rem;
+  border: 2px solid white;
+  border-radius: 12px;
+  background-color: #262626;
+  color: #f9f9f9;
+  padding: 0.425rem;
+  margin: 1.25rem auto;
+  inline-size: 80%;
+}
+
+.main-content {
+  inline-size: 100%;
+  block-size: 45vh;
+  background-color: white;
+  border-radius: 15px;
+  padding: 2rem 4rem;
+  box-shadow: 1px 3px 20px rgb(252, 240, 17);
+}
+
+.main-content .text-area {
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+.main-content .author {
+  font-size: 1.7rem;
+  line-height: 1.5;
+  font-weight: 700;
+  color: rgba(241, 72, 9, 0.95);
+  margin: 0.675rem auto;
+  text-transform: uppercase;
+}
+
+.button-area button{
+  text-transform: capitalize;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #292929;
+  cursor: pointer;
+  color: white;
+  padding: 1rem 2rem;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.button-area button:hover {
+  color: black;
+  background: cyan;
+  box-shadow: 2px 3px 5px #37e8b9;
+}
+
+.button-area button:active {
+  color: black;
+  background-color: lightblue;
+  transition: all 0.2s;
+  box-shadow: 1px 3px 5px yellowgreen;
+  transform: translateY(-2px);
+}
