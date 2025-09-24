@@ -5,7 +5,6 @@ const API_BASE =
     : 'https://vanilla-js-quote-generator-backend.onrender.com';
 
 const url = new URL(`${API_BASE}/api/quote`);
-console.log(url);
 
 let QUOTE_KEY = 'quote',
   AUTHOR_KEY = 'author';
